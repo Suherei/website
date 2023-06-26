@@ -1,2 +1,2 @@
 FROM hshar/webapp
-ADD ./var/www/html /destination/path
+COPY script.py ./var/www/html
